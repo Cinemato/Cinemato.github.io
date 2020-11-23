@@ -5,6 +5,10 @@
     font-family: pixel;
 }
 
+html {
+    overflow: scroll;
+}
+
 @font-face {
     src: url(Fonts/Pixellari.ttf);
     font-family: pixel;
@@ -101,35 +105,39 @@ nav ul li {
     font-size: 80px;
 }
 
-#title{
+#title {
     padding: 60px;
 }
 
-
 @media only screen and (max-width: 900px) {
+    html {
+        overflow-x: hidden;
+    }
+
     h1 {
         font-size: 30px;
     }
-    
-    .wrapper{
+
+    .wrapper {
         overflow-x: hidden;
     }
 
     .game .col-2 img {
         width: 120px;
         height: 120px;
-       
+
     }
-    .game .col-2{
-         min-width: 0px;
+
+    .game .col-2 {
+        min-width: 0px;
     }
-    
-    .game{
+
+    .game {
         margin: 0px;
         padding-top: 15px;
         padding-bottom: 15px;
     }
-    
+
     nav {
         text-align: center;
     }
@@ -139,8 +147,8 @@ nav ul li {
         margin-right: 12px;
         font-size: 20px;
     }
-    
-    nav a{
+
+    nav a {
         font-size: 20px;
     }
 
@@ -151,20 +159,20 @@ nav ul li {
     #title h1 {
         font-size: 50px;
     }
-    
-    .textbox p{
+
+    .textbox p {
         font-size: 18px;
     }
-    
-    .textbox{
+
+    .textbox {
         text-align: left;
     }
-    
-    #title{
+
+    #title {
         padding: 35px;
     }
-    
-    .game h2{
+
+    .game h2 {
         font-size: 18px;
     }
 }
@@ -174,8 +182,6 @@ nav ul li {
         width: 100px;
         height: 100px;
     }
-    
-    
+
+
 }
-
-
