@@ -63,6 +63,7 @@ nav ul li {
     padding-top: 40px;
     display: flex;
     justify-content: center;
+    max-width: 1300px;
 }
 
 .textbox p {
@@ -124,7 +125,6 @@ nav ul li {
     .game .col-2 img {
         width: 120px;
         height: 120px;
-        margin: 0px 12px;
     }
 
     .game .col-2 {
