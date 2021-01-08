@@ -24,6 +24,10 @@ nav a {
     color: white;
 }
 
+#selected{
+    border-bottom: 4px solid white;
+}
+
 a {
     color: black;
     text-decoration: none;
