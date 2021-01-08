@@ -55,8 +55,8 @@ nav a:hover {
     max-width: 100px;
     padding: 10px 20px;
     border-radius: 50px;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 2px;
+    margin-right: 2px;
 }
 
 nav ul li {
