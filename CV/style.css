@@ -97,6 +97,7 @@ nav ul li {
     bottom: 0%;
     text-align: center;
     padding-bottom: 25px;
+    margin-top: 20px;
 }
 
 .col-2 {
@@ -123,6 +124,51 @@ nav ul li {
 
 #title {
     padding: 60px;
+    background: #C08562;
+}
+
+#nav{
+    background: #266150;
+}
+
+.lime{
+    color: lime;
+}
+
+.orange{
+    color: #FF7B00;
+}
+
+.center{
+    text-align: center;
+}
+
+.gameName{
+    font-weight: normal;
+    margin: 5px 0px;
+}
+
+.bigText{
+    font-size: 23px;
+}
+
+#twitter{
+    font-size: 15px;
+    color: #00acee
+}
+
+#github{
+    font-size: 15px;
+    color: black
+}
+
+.noPB{
+    padding-bottom: 0px;
+}
+
+.screenshots{
+    padding-top: 0px;
+    max-width: 1000px;
 }
 
 @media only screen and (max-width: 900px) {
