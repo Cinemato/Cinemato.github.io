@@ -187,6 +187,21 @@ a h1 {
 
 @media only screen and (max-width: 1000px) {
     .container {
+        width: 70%;
+    }
+
+    .game {
+        width: 50%;
+        margin-bottom: 10px;
+    }
+
+    .screenshots img {
+        width: 50%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .container {
         width: 90%;
     }
 
@@ -196,7 +211,6 @@ a h1 {
 
     .game {
         width: 70%;
-        margin-bottom: 10px;
     }
 
     .title h1 {
