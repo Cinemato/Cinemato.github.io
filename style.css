@@ -187,7 +187,7 @@ a h1 {
 
 @media only screen and (max-width: 1000px) {
     .container {
-        width: 90%;
+        width: 100%;
     }
 
     .game {
@@ -196,7 +196,7 @@ a h1 {
     }
 
     .screenshots img {
-        width: 20%;
+        width: 10%;
     }
 }
 
