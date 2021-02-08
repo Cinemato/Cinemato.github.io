@@ -32,6 +32,12 @@ body {
 .title h1 {
     font-size: 85px;
     color: lime;
+    margin-right: 1.6%;
+}
+
+.logo{
+    display: flex;
+    margin-right: 1.6%;
 }
 
 .nav {
