@@ -1,0 +1,214 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: pixel;
+}
+
+@font-face {
+    src: url(Fonts/Pixellari.ttf);
+    font-family: pixel;
+}
+
+body {
+    background: #FCF0E8;
+    position: relative;
+    overflow-y: scroll;
+}
+
+.title,
+.nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.title {
+    padding: 40px;
+    background: #C08562;
+}
+
+.title h1 {
+    font-size: 85px;
+    color: lime;
+}
+
+.nav {
+    list-style: none;
+    background: #266150;
+    padding: 23px;
+}
+
+.nav li {
+    margin: 0px 3%;
+}
+
+.nav li a {
+    color: white;
+    font-size: 30px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.nav li a:hover {
+    border-bottom: 4px solid white;
+}
+
+.container {
+    width: 60%;
+    margin: auto;
+    margin-top: 40px;
+}
+
+.text-box * {
+    margin: 10px 0px;
+}
+
+.text-box {
+    text-align: left;
+    width: 60%;
+    margin: auto;
+}
+
+.text-box p {
+    font-size: 20px;
+}
+
+.text-box h1 {
+    font-size: 40px;
+    text-align: center;
+}
+
+footer {
+    margin-top: 70px;
+    margin-bottom: 20px;
+}
+
+footer .text-box p {
+    font-size: 15px;
+    text-align: center;
+}
+
+.game {
+    width: 35%;
+    margin: 0px 8px;
+    padding: 30px;
+}
+
+.game .text-box {
+    text-align: center;
+}
+
+.game img {
+    width: 100%;
+    border-radius: 12px;
+}
+
+.games {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.game .text-box * {
+    margin: 5px 0px;
+}
+
+.game:hover {
+    background: #FED1B8;
+    cursor: pointer;
+}
+
+small {
+    font-size: 16px;
+}
+
+.about * {
+    margin: 0px;
+}
+
+.text-box hr {
+    width: 50%;
+    border: 2px solid black;
+    margin: 50px auto;
+}
+
+.contacts {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.contacts a {
+    margin: 0px 5px;
+    border-radius: 100px;
+    padding: 5px 15px 0px 15px;
+}
+
+.center {
+    text-align: center;
+}
+
+.center a {
+    color: limegreen;
+}
+
+.center a:hover {
+    border-bottom: 4px solid limegreen;
+}
+
+.contacts a:hover {
+    background: #FED1B8;
+    border: none;
+}
+
+a h1 {
+    text-decoration: underline;
+}
+
+.screenshots {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: auto;
+}
+
+.screenshots img {
+    width: 40%;
+    margin: 10px 10px;
+}
+
+@media only screen and (max-width: 600px) {
+    .container {
+        width: 90%;
+    }
+
+    .text-box {
+        width: 100%;
+    }
+
+    .game {
+        width: 70%;
+        margin-bottom: 10px;
+    }
+
+    .title h1 {
+        font-size: 75px;
+        color: lime;
+    }
+
+    .nav li a {
+        color: white;
+        font-size: 25px;
+    }
+    
+    .screenshots img{
+        width: 100%;
+    }
+}
