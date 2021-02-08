@@ -196,11 +196,15 @@ a h1 {
     }
 
     .screenshots img {
-        width: 30%;
+        width: 50%;
     }
 }
 
 @media only screen and (max-width: 600px) {
+
+    .container {
+        width: 90%;
+    }
 
     .text-box {
         width: 100%;
