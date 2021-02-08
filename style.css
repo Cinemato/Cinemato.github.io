@@ -214,15 +214,15 @@ a h1 {
 
 @media only screen and (max-width: 400px) {
     .title h1{
-        font-size: 50px;
+        font-size: 40px;
     }
 
     a h1{
-        font-size: 30px;
+        font-size: 22px;
     }
 
-    .screenshots img{
-        width: 20%;
+    .screenshots{
+        width: 50%;
     }
 
     .text-box h1{
