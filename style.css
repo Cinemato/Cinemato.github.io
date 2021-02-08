@@ -206,26 +206,30 @@ a h1 {
     .nav li a {
         font-size: 25px;
     }
-    
-    .screenshots img{
+
+    .screenshots img {
         width: 100%;
     }
 }
 
 @media only screen and (max-width: 400px) {
-    .title h1{
+    .title h1 {
         font-size: 40px;
     }
 
-    a h1{
+    a h1 {
         font-size: 22px;
     }
 
-    .screenshots{
+    .screenshots {
         width: 50%;
     }
 
-    .text-box h1{
+    .text-box h1 {
         font-size: 30px;
+    }
+
+    .screenshots img {
+        width: 100%;
     }
 }
