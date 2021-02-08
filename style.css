@@ -224,4 +224,8 @@ a h1 {
     .screenshots img{
         width: 20%;
     }
+
+    .text-box h1{
+        font-size: 30px;
+    }
 }
