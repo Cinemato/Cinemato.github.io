@@ -180,7 +180,7 @@ a h1 {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    width: 800px;
+    width: 1000px;
     margin: auto;
     overflow: hidden;
 
@@ -193,6 +193,7 @@ a h1 {
 }
 
 @media only screen and (max-width: 1300px) {
+
     .container {
         width: 100%;
     }
@@ -200,6 +201,10 @@ a h1 {
     .game {
         width: 30%;
         margin-bottom: 10px;
+    }
+
+    .screenshots {
+        width: 800px;
     }
 }
 
@@ -225,7 +230,7 @@ a h1 {
         font-size: 25px;
     }
 
-    .screenshots{
+    .screenshots {
         width: 350px;
     }
 
@@ -242,10 +247,10 @@ a h1 {
         padding: 18px;
     }
 
-
     .nav li {
         margin: 0px 4%;
     }
+
 }
 
 @media only screen and (max-width: 400px) {
