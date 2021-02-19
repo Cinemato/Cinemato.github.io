@@ -247,6 +247,10 @@ a h1 {
         height: 100%;
     }
 
+    .image{
+        width: 100%;
+    }
+
     .title {
         padding: 30px;
     }
@@ -258,11 +262,6 @@ a h1 {
     .nav li {
         margin: 0px 4%;
     }
-
-    .image{
-        width: 100%;
-    }
-
 }
 
 @media only screen and (max-width: 400px) {
@@ -279,6 +278,5 @@ a h1 {
     .text-box h1 {
         font-size: 30px;
     }
-
 
 }
