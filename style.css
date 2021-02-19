@@ -73,7 +73,7 @@ a {
 }
 
 .text-box {
-    text-align: left;
+    text-align: justify;
     width: 60%;
     margin: auto;
 }
@@ -191,6 +191,15 @@ a h1 {
     margin: 10px 10px;
 }
 
+.image{
+    width: 60%;
+    margin: 40px auto;
+}
+
+.image img{
+    width: 100%;
+}
+
 @media only screen and (max-width: 1300px) {
 
     .container {
@@ -248,6 +257,10 @@ a h1 {
 
     .nav li {
         margin: 0px 4%;
+    }
+
+    .image{
+        width: 100%;
     }
 
 }
