@@ -103,6 +103,10 @@ footer .text-box p {
     padding: 30px;
 }
 
+.game .text-box{
+    width: 100%;
+}
+
 .game .text-box {
     text-align: center;
 }
