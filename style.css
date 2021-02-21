@@ -103,7 +103,7 @@ footer .text-box p {
     padding: 30px;
 }
 
-.game .text-box{
+.game .text-box {
     width: 100%;
 }
 
@@ -195,12 +195,12 @@ a h1 {
     margin: 10px 10px;
 }
 
-.image{
+.image {
     width: 60%;
     margin: 40px auto;
 }
 
-.image img{
+.image img {
     width: 100%;
 }
 
@@ -219,6 +219,14 @@ a h1 {
         width: 800px;
     }
 }
+
+@media only screen and (max-width: 900px) {
+
+    .screenshots {
+        width: 600px;
+    }
+}
+
 
 @media only screen and (max-width: 800px) {
 
@@ -251,7 +259,7 @@ a h1 {
         height: 100%;
     }
 
-    .image{
+    .image {
         width: 100%;
     }
 
