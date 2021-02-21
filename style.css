@@ -226,21 +226,25 @@ a h1 {
 
 @media only screen and (max-width: 900px) {
 
-    .container {
-        width: 90%;
-    }
-
     .screenshots {
         width: 700px;
     }
 
     .text-box {
-        width: 100%;
+        width: 70%;
+    }
+
+    .game{
+        width: 50%;
     }
 }
 
 
 @media only screen and (max-width: 600px) {
+
+    .container {
+        width: 90%;
+    }
 
     .game {
         width: 70%;
