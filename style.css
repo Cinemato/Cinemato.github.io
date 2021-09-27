@@ -105,10 +105,11 @@ footer .text-box p {
 
 .game .text-box {
     width: 100%;
+    text-align: center;
 }
 
-.game .text-box {
-    text-align: center;
+.game .text-box p{
+    font-size: 30px;
 }
 
 .game img {
@@ -289,6 +290,10 @@ a h1 {
 }
 
 @media only screen and (max-width: 400px) {
+
+    .game .text-box p{
+        font-size: 22px;
+    }
 
     .title h1 {
         font-size: 45px;
