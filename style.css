@@ -927,7 +927,7 @@ td:last-child {
     }
 }
 
-@media screen and (max-width:800px) {
+@media screen and (max-width:600px) {
 
     .title h2:after{
         width: 75px;
