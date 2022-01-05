@@ -274,10 +274,10 @@ footer {
     width: 25%;
     margin: auto;
     margin-bottom: 50px;
+    text-align: center;
 }
 
 .title h2 {
-    text-align: center;
     font-size: 30px;
     font-weight: normal;
     position: relative;
@@ -783,6 +783,15 @@ td:last-child {
         width: 100%;
         font-size: 17px;
     }
+
+    .title h2:after{
+        left: 95%;
+    }
+
+
+    .title h2:before{
+        right: 95%;
+    }
 }
 
 
@@ -919,16 +928,22 @@ td:last-child {
     }
 
     .title{
-        width: 100px;
+        width: 200px;
+    }
+
+    .title h2{
+        font-size: 25px;
     }
 
     .title h2:after{
         width: 100px;
+        left: 90%;
     }
 
 
     .title h2:before{
         width: 100px;
+        right: 90%;
     }
 }
 
