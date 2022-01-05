@@ -286,7 +286,7 @@ footer {
 .title h2:before {
     content: "";
     display: block;
-    width: 120px;
+    width: 30%;
     height: 2px;
     background: black;
     position: absolute;
@@ -297,7 +297,7 @@ footer {
 .title h2:after {
     content: "";
     display: block;
-    width: 120px;
+    width: 30%;
     height: 2px;
     background: black;
     position: absolute;
