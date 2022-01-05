@@ -918,6 +918,10 @@ td:last-child {
         padding-bottom: 0px;
     }
 
+    .title{
+        width: 100px;
+    }
+
     .title h2:after{
         width: 100px;
     }
