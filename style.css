@@ -953,6 +953,10 @@ td:last-child {
         width: 100px;
         right: 90%;
     }
+
+    .info-text{
+        font-size: 15px;
+    }
 }
 
 @media screen and (max-width:600px) {
