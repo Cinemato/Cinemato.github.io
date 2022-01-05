@@ -286,22 +286,22 @@ footer {
 .title h2:before {
     content: "";
     display: block;
-    width: 30%;
+    width: 120px;
     height: 2px;
     background: black;
     position: absolute;
-    left: 0%;
+    right: 75%;
     top: 50%;
 }
 
 .title h2:after {
     content: "";
     display: block;
-    width: 30%;
+    width: 120px;
     height: 2px;
     background: black;
     position: absolute;
-    right: 0%;
+    left: 75%;
     top: 50%;
 }
 
@@ -915,6 +915,27 @@ td:last-child {
     .login h1 {
         border-bottom: none;
         padding-bottom: 0px;
+    }
+
+    .title h2:after{
+        width: 100px;
+    }
+
+
+    .title h2:before{
+        width: 100px;
+    }
+}
+
+@media screen and (max-width:800px) {
+
+    .title h2:after{
+        width: 75px;
+    }
+
+
+    .title h2:before{
+        width: 75px;
     }
 
 }
