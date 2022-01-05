@@ -925,6 +925,15 @@ td:last-child {
     .login h1 {
         border-bottom: none;
         padding-bottom: 0px;
+        font-size: 35px;
+    }
+
+    .login .btn{
+        width: 70%;
+    }
+
+    .login .mini-form{
+        width: 70%;
     }
 
     .title{
@@ -939,7 +948,6 @@ td:last-child {
         width: 100px;
         left: 90%;
     }
-
 
     .title h2:before{
         width: 100px;
