@@ -373,7 +373,7 @@ footer {
     padding-left: 8px;
 }
 
-.small-container hr {
+hr {
     width: 50%;
     margin: 40px auto;
     border: 1px solid black;
