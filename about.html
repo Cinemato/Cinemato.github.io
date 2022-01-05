@@ -3,49 +3,88 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>About | Cinemato;</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    <link rel="icon" href="Images/FAVICON.png">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Reads | Shop Online</title>
 </head>
 
 <body>
     <header>
-        <div class="title">
-            <h1>About</h1>
+        <div class="header-container">
+            <a href="index.html">
+                <div class="logo-container">
+                    <h1>Reads</h1>
+                </div>
+            </a>
+            <nav>
+                <ul class="links">
+                    <li><a href="index.html" class="link">Products</a></li>
+                    <li><a href="about.html" class="link">About</a></li>
+                    <li><a href="contact.html" class="link">Contact</a></li>
+                    <li><a href="login.html" class="link">Login</a></li>
+                </ul>
+
+                <div class="cart bigger">
+                    <a href="cart.html"><img src="Images/cart.svg" alt="cart"></a>
+                    <p>0</p>
+                </div>
+
+                <div class="menu-icon" onclick="menutoggle()">
+                    <img src="Images/menu.svg" id="burger">
+                </div>
+            </nav>
         </div>
-        <ul class="nav">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="games.html">Games</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="contact.html">Contact</a></li>
+
+        <ul class="links mobile" id="menu">
+            <li><a href="index.html" class="link">Products</a></li>
+            <li><a href="about.html" class="link">About</a></li>
+            <li><a href="contact.html" class="link">Contact</a></li>
+            <li><a href="login.html" class="link">Login</a></li>
         </ul>
     </header>
     <main>
         <div class="container">
-            <div class="text-box">
-                <div class="about">
-                    <h1>Who am I?</h1>
-                    <br>
-                    <p>My name is Khaled. I'm a 21 year old Syrian college student studying in Turkey. I love making small video games and my favourite hobby is watching anime. :D</p>
+            <div class="sub-container">
+                <div class="title">
+                    <h2>About Us</h2>
                 </div>
-                <hr>
-                <div class="about">
-                    <h1>What do I do?</h1>
-                    <br>
-                    <p>As stated before I'm currently a college student and I also offer freelance work on Fiverr. I have been making small indie games during my spare time and I'm planning to start working on a large project this summer. I will provide updates about it here soon!</p>
+                <div class="row">
+                    <div class="small-container">
+                        <h2 class="orange-title">Who are we?</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque consequuntur ipsa, nesciunt, accusamus, illo nam quos omnis odit numquam quaerat, sed nulla autem laudantium esse quibusdam. Perspiciatis molestiae animi eius.</p>
+                        <hr>
+                        <h2 class="orange-title">What do we sell?</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque consequuntur ipsa, nesciunt, accusamus, illo nam quos omnis odit numquam quaerat, sed nulla autem laudantium esse quibusdam. Perspiciatis molestiae animi eius.</p>
+                        <hr>
+                        <h2 class="orange-title">Where do we exist?</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque consequuntur ipsa, nesciunt, accusamus, illo nam quos omnis odit numquam quaerat, sed nulla autem laudantium esse quibusdam. Perspiciatis molestiae animi eius.</p>
+                    </div>
                 </div>
-                <br>
-                <br>
-                <h3 class="center">Have more questions? <a href="contact.html">Contact me!</a></h3>
+                <h3 class="info-text">Want to know more? <a href="contact.html">Contact us!</a></h3>
             </div>
         </div>
     </main>
     <footer>
-        <div class="text-box">
-            <p>&#169; 2021 - Cinemato;</p>
+        <div class="footer-container">
+            <div class="col">
+                <h2 class="row">Follow Us</h2>
+                <ul class="col-4">
+                    <a href="" class="bigger"><img src="Images/insta.png" width="40px"></a>
+                    <a href="" class="bigger"><img src="Images/facebook.png" width="40px"></a>
+                </ul>
+            </div>
+            <div class="col">
+                <div class="white-logo-container row">
+                    <h1>Reads</h1>
+                </div>
+                Email:
+                <p class="row">reads-support@gmail.com</p>
+            </div>
         </div>
+        <p class="copy">
+            &#169; 2021 - Reads
+        </p>
     </footer>
 </body>
-
-</html>
+<script src="Scripts/mobileMenu.js"></script></html>

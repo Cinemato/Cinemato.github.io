@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Reads | Shop Online</title>
+</head>
+
+<body>
+    <header>
+        <div class="header-container">
+            <a href="index.html">
+                <div class="logo-container">
+                    <h1>Reads</h1>
+                </div>
+            </a>
+            <nav>
+                <ul class="links">
+                    <li><a href="index.html" class="link">Products</a></li>
+                    <li><a href="about.html" class="link">About</a></li>
+                    <li><a href="contact.html" class="link">Contact</a></li>
+                    <li><a href="login.html" class="link">Login</a></li>
+                </ul>
+
+                <div class="cart bigger">
+                    <a href="cart.html"><img src="Images/cart.svg" alt="cart"></a>
+                    <p>0</p>
+                </div>
+
+                <div class="menu-icon" onclick="menutoggle()">
+                    <img src="Images/menu.svg" id="burger">
+                </div>
+            </nav>
+        </div>
+
+        <ul class="links mobile" id="menu">
+            <li><a href="index.html" class="link">Products</a></li>
+            <li><a href="about.html" class="link">About</a></li>
+            <li><a href="contact.html" class="link">Contact</a></li>
+            <li><a href="login.html" class="link">Login</a></li>
+        </ul>
+    </header>
+    <main>
+            <div class="sub-container">
+                <div class="row">
+                    <div class="product-showcase">
+                        <div class="product-images col-2">
+                            <img src="Images/Products/109060-1.jpg" alt="" width="100%" id="product-image">
+
+                            <div class="image-row">
+                                <div class="small-image-col" style="border-color: #FFA20C">
+                                    <img src="Images/Products/109060-1.jpg" alt="" width="100%" class="small-image">
+                                </div>
+                                <div class="small-image-col">
+                                    <img src="Images/Products/109060-1_1.jpg" alt="" width="100%" class="small-image">
+                                </div>
+                                <div class="small-image-col">
+                                    <img src="Images/Products/109060-1_2.jpg" alt="" width="100%" class="small-image">
+                                </div>
+                                <div class="small-image-col">
+                                    <img src="Images/Products/109060-1_3.jpg" alt="" width="100%" class="small-image">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product-text col-2">
+                            <h1>Product 1</h1>
+                            <p>10.00 KWD</p>
+                            <div class="input-container">
+                                <select>
+                                    <option value="" disabled selected hidden>Select Size</option>
+                                    <option>XXL</option>
+                                    <option>XL</option>
+                                    <option>L</option>
+                                    <option>M</option>
+                                    <option>S</option>
+                                </select>
+                                <div class="product-input">
+                                    <input type="number" required min="1" max="9" value="1" name="qty">
+                                    <a href="" class="btn">Add To Cart</a>
+                                </div>
+                            </div>
+                            <div class="desc">
+                                <h3>Product Description</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem id pariatur officiis magnam molestias, repellat accusantium sunt quis provident unde, inventore laborum, nesciunt voluptatem facilis alias blanditiis. Neque, quisquam, dolorum. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed velit dolore facere, amet sunt. Hic, aspernatur animi similique laborum iusto optio numquam voluptates harum, debitis nesciunt facere quisquam ab accusantium.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </main>
+    <footer>
+        <div class="footer-container">
+            <div class="col">
+                <h2 class="row">Follow Us</h2>
+                <ul class="col-4">
+                    <a href="" class="bigger"><img src="Images/insta.png" width="40px"></a>
+                    <a href="" class="bigger"><img src="Images/facebook.png" width="40px"></a>
+                </ul>
+            </div>
+            <div class="col">
+                <div class="white-logo-container row">
+                    <h1>Reads</h1>
+                </div>
+                Email:
+                <p class="row">reads-support@gmail.com</p>
+            </div>
+        </div>
+        <p class="copy">
+            &#169; 2021 - Reads
+        </p>
+    </footer>
+
+
+</body>
+<script src="Scripts/mobileMenu.js"></script>
+<script src="Scripts/imageChange.js"></script></html>

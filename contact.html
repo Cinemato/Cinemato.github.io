@@ -3,45 +3,113 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Contact | Cinemato;</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    <link rel="icon" href="Images/FAVICON.png">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Reads | Shop Online</title>
 </head>
 
 <body>
     <header>
-        <div class="title">
-            <h1>Contact</h1>
+        <div class="header-container">
+            <a href="index.html">
+                <div class="logo-container">
+                    <h1>Reads</h1>
+                </div>
+            </a>
+            <nav>
+                <ul class="links">
+                    <li><a href="index.html" class="link">Products</a></li>
+                    <li><a href="about.html" class="link">About</a></li>
+                    <li><a href="contact.html" class="link">Contact</a></li>
+                    <li><a href="login.html" class="link">Login</a></li>
+                </ul>
+
+                <div class="cart bigger">
+                    <a href="cart.html"><img src="Images/cart.svg" alt="cart"></a>
+                    <p>0</p>
+                </div>
+                
+                <div class="menu-icon" onclick="menutoggle()">
+                    <img src="Images/menu.svg" id="burger">
+                </div>
+            </nav>
         </div>
-        <ul class="nav">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="games.html">Games</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="contact.html">Contact</a></li>
+
+        <ul class="links mobile" id="menu">
+            <li><a href="index.html" class="link">Products</a></li>
+            <li><a href="about.html" class="link">About</a></li>
+            <li><a href="contact.html" class="link">Contact</a></li>
+            <li><a href="login.html" class="link">Login</a></li>
         </ul>
     </header>
     <main>
         <div class="container">
-            <div class="text-box center">
-                <h1>How to contact me?</h1>
-                <br>
-                <p>If I'm still alive you can contact me via email at <b>alharerekhaled@gmail.com</b></p>
-                <br>
-                <small>- or -</small>
-                <br>
-                <br>
-                <h2>Social Media</h2>
-                <div class="contacts">
-                    <a href="https://github.com/Cinemato?tab=repositories" target="_blank"><img src="Images/github.png" width="64px" height="64px"></a>
-                    <a href="https://twitter.com/xXAlharereXx" target="_blank"><img src="Images/twitter.png" width="64px" height="64px"></a>
+            <div class="sub-container">
+                <div class="title">
+                    <h2>Contact</h2>
                 </div>
+                <div class="row">
+                    <div class="small-container">
+                        <div class="flex-center">
+                            <p>You can contact us manually using our contact info, or by filling out the contact form.</p>
+                        </div><br>
+                        <p>Email: reads-support@gmail.com<br>Phone: +965 99535499</p><hr>
+                        <h2 style="text-align: center; font-weight: normal;">Contact Form</h2>
+                        <form action="">
+                            <div class="mini-form">
+                                <input type="text" name="name" required>
+                                <label for="name" class="mini-label">
+                                    <span class="mini-content">Name</span>
+                                </label>
+                            </div>
+                            <div class="mini-form">
+                                <input type="text" name="email" required>
+                                <label for="email" class="mini-label">
+                                    <span class="mini-content">Email</span>
+                                </label>
+                            </div>
+                            <div class="mini-form">
+                                <input type="text" name="subject" required>
+                                <label for="subject" class="mini-label">
+                                    <span class="mini-content">Subject</span>
+                                </label>
+                            </div>
+                            <div class="textarea">
+                                <textarea name="msg" id="" cols="30" rows="10" required></textarea>
+                                <label for="msg" class="ta-label">
+                                    <span class="ta-content">Message</span>
+                                </label>
+                            </div>
+                            <input type="submit" class="btn sbmt" value="Send">
+                        </form>
+                    </div>
+                </div>
+
             </div>
         </div>
     </main>
     <footer>
-        <div class="text-box">
-            <p>&#169; 2021 - Cinemato;</p>
+        <div class="footer-container">
+            <div class="col">
+                <h2 class="row">Follow Us</h2>
+                <ul class="col-4">
+                    <a href="" class="bigger"><img src="Images/insta.png" width="40px"></a>
+                    <a href="" class="bigger"><img src="Images/facebook.png" width="40px"></a>
+                </ul>
+            </div>
+            <div class="col">
+                <div class="white-logo-container row">
+                    <h1>Reads</h1>
+                </div>
+                Email:
+                <p class="row">reads-support@gmail.com</p>
+            </div>
         </div>
+        <p class="copy">
+            &#169; 2021 - Reads
+        </p>
     </footer>
-</body></html>
+</body>
+<script src="Scripts/mobileMenu.js"></script>
+</html>
