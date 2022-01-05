@@ -551,7 +551,6 @@ textarea {
     position: relative;
 }
 
-
 .input-container {
     position: relative;
     margin-bottom: 40px;
@@ -792,6 +791,11 @@ td:last-child {
     .title h2:before{
         right: 95%;
     }
+    
+    .small-container {
+        width: 65%;
+    }
+
 }
 
 
