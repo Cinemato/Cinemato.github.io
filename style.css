@@ -632,7 +632,7 @@ select {
 
 .cart-page table {
     width: 100%;
-    margin: 30px auto;
+    margin: 50px auto 30px auto;
     border-collapse: collapse;
 }
 
@@ -963,6 +963,10 @@ td:last-child {
 
     .info-text{
         font-size: 15px;
+    }
+
+    .cart-page table{
+        margin: 30px auto;
     }
 
     main {
