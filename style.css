@@ -848,8 +848,8 @@ td:last-child {
         align-items: center;
     }
 
-    .product-images {
-        width: 70%;
+    .product-images, .product-text {
+        width: 90%;
     }
 
     .col-2 {
@@ -859,7 +859,6 @@ td:last-child {
     .product-text {
         margin-top: 20px;
         padding: 0px;
-        width: 70%;
     }
 
     .input-container select {
@@ -869,7 +868,7 @@ td:last-child {
 
     .desc {
         text-align: left;
-        width: 300px;
+        width: 100%
     }
 
     .cart-page .container {
@@ -880,6 +879,12 @@ td:last-child {
         display: flex;
         justify-content: space-between;
         align-items: center;
+    }
+
+    .product-input .btn {
+        width: 100%;
+        text-align: center;
+        border-radius: 0px;
     }
 
     .login {
