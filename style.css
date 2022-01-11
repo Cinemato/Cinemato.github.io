@@ -309,7 +309,7 @@ footer {
     margin: auto;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
     width: 90%;
     margin-top: 10px;
 }
@@ -980,9 +980,7 @@ td:last-child {
         width: 75px;
     }
 
-
     .title h2:before{
         width: 75px;
     }
-
 }
