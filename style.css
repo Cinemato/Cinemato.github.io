@@ -951,12 +951,8 @@ td:last-child {
         font-size: 35px;
     }
 
-    .login .btn{
-        width: 70%;
-    }
-
-    .login .mini-form{
-        width: 70%;
+    .login .mini-form, .login .btn{
+        width: 90%;
     }
 
     .title{
