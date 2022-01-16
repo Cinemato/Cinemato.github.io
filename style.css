@@ -800,6 +800,7 @@ td:last-child {
     }
 }
 
+/* 2 columns for mobile
 @media screen and (max-width:1000px) {
     .product{
         width: 45%;
@@ -810,6 +811,7 @@ td:last-child {
         width: 100%;
     }
 }
+*/
 
 @media screen and (max-width:800px) {
 
