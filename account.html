@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Reads | Shop Online</title>
+</head>
+
+<body>
+    <header>
+        <div class="header-container">
+            <a href="index.html">
+                <div class="logo-container">
+                    <h1>Reads</h1>
+                </div>
+            </a>
+            <nav>
+                <ul class="links">
+                    <li><a href="index.html" class="link">Products</a></li>
+                    <li><a href="about.html" class="link">About</a></li>
+                    <li><a href="contact.html" class="link">Contact</a></li>
+                    <li><a href="login.html" class="link">Login</a></li>
+                </ul>
+
+                <div class="cart bigger">
+                    <a href="cart.html"><img src="Images/cart.svg" alt="cart"></a>
+                    <p>0</p>
+                </div>
+                
+                <div class="menu-icon" onclick="menutoggle()">
+                    <img src="Images/menu.svg" id="burger">
+                </div>
+            </nav>
+        </div>
+
+        <ul class="links mobile" id="menu">
+            <li><a href="index.html" class="link">Products</a></li>
+            <li><a href="about.html" class="link">About</a></li>
+            <li><a href="contact.html" class="link">Contact</a></li>
+            <li><a href="login.html" class="link">Login</a></li>
+        </ul>
+    </header>
+    <main>
+        <div class="container">
+            <div class="sub-container">
+                <div class="title">
+                    <h2>Account</h2>
+                </div>
+                <div class="row">
+                    <div class="small-container">
+                        <h2 style="text-align: center; font-weight: normal;">Personal Details</h2>
+                        <form action="">
+                            <div class="mini-form">
+                                <input type="text" name="name" required>
+                                <label for="name" class="mini-label">
+                                    <span class="mini-content">Name</span>
+                                </label>
+                            </div>
+                            <div class="mini-form">
+                                <input type="text" name="email" required>
+                                <label for="email" class="mini-label">
+                                    <span class="mini-content">Email</span>
+                                </label>
+                            </div>
+                            <div class="mini-form">
+                                <input type="text" name="subject" required>
+                                <label for="subject" class="mini-label">
+                                    <span class="mini-content">Subject</span>
+                                </label>
+                            </div>
+                            <div class="textarea">
+                                <textarea name="msg" id="" cols="30" rows="10" required></textarea>
+                                <label for="msg" class="ta-label">
+                                    <span class="ta-content">Message</span>
+                                </label>
+                            </div>
+                            <input type="submit" class="btn sbmt" value="Send">
+                        </form><br><br><hr>
+                        <h2 style="text-align: center; font-weight: normal;">Your Orders</h2>
+                        <div class="order-info">
+                            <p>Order ID: 121212</p> 
+                            <p>Status: Delivered</p>
+                        </div>
+                        <div class="cart-page" style="margin: 0; border-bottom: 3px solid #FFA20C; padding-bottom: 0;">
+                                <table style="margin-top: 0px;">
+                                    <tr>
+                                        <th>Product</th>
+                                        <th>Quantity</th>
+                                        <th>Total</th>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <div class="cart-product">
+                                                <img src="Images/Products/109060-1.jpg">
+                                                <div class="product-info">
+                                                    <p>Product 1</p>
+                                                    <small>Price: 10 KWD</small><br>
+                                                    <small>Size: M</small><br>
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td><input type="number" value="1" disabled></td>
+                                        <td>10 KWD</td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <div class="cart-product">
+                                                <img src="Images/Products/109060-1.jpg">
+                                                <div class="product-info">
+                                                    <p>Product 1</p>
+                                                    <small>Price: 10 KWD</small><br>
+                                                    <small>Size: M</small><br>
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td><input type="number" value="1" disabled></td>
+                                        <td>10 KWD</td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <div class="cart-product">
+                                                <img src="Images/Products/109060-1.jpg">
+                                                <div class="product-info">
+                                                    <p>Product 1</p>
+                                                    <small>Price: 10 KWD</small><br>
+                                                    <small>Size: M</small><br>
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td><input type="number" value="1" disabled></td>
+                                        <td>10 KWD</td>
+                                    </tr>
+                                </table>
+                        </div>
+                        <div class="order-info">
+                            <p>Order ID: 121212</p> 
+                            <p>Status: Delivered</p>
+                        </div>
+                        <div class="cart-page" style="margin: 0; border-bottom: 3px solid #FFA20C; padding-bottom: 0;">
+                                <table style="margin-top: 0px;">
+                                    <tr>
+                                        <th>Product</th>
+                                        <th>Quantity</th>
+                                        <th>Total</th>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <div class="cart-product">
+                                                <img src="Images/Products/109060-1.jpg">
+                                                <div class="product-info">
+                                                    <p>Product 1</p>
+                                                    <small>Price: 10 KWD</small><br>
+                                                    <small>Size: M</small><br>
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td><input type="number" value="1" disabled></td>
+                                        <td>10 KWD</td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <div class="cart-product">
+                                                <img src="Images/Products/109060-1.jpg">
+                                                <div class="product-info">
+                                                    <p>Product 1</p>
+                                                    <small>Price: 10 KWD</small><br>
+                                                    <small>Size: M</small><br>
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td><input type="number" value="1" disabled></td>
+                                        <td>10 KWD</td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <div class="cart-product">
+                                                <img src="Images/Products/109060-1.jpg">
+                                                <div class="product-info">
+                                                    <p>Product 1</p>
+                                                    <small>Price: 10 KWD</small><br>
+                                                    <small>Size: M</small><br>
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td><input type="number" value="1" disabled></td>
+                                        <td>10 KWD</td>
+                                    </tr>
+                                </table>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="footer-container">
+            <div class="col">
+                <h2 class="row">Follow Us</h2>
+                <ul class="col-4">
+                    <a href="" class="bigger"><img src="Images/insta.png" width="40px"></a>
+                    <a href="" class="bigger"><img src="Images/facebook.png" width="40px"></a>
+                </ul>
+            </div>
+            <div class="col">
+                <div class="white-logo-container row">
+                    <h1>Reads</h1>
+                </div>
+                Email:
+                <p class="row">reads-support@gmail.com</p>
+            </div>
+        </div>
+        <p class="copy">
+            &#169; 2021 - Reads
+        </p>
+    </footer>
+</body>
+<script src="Scripts/mobileMenu.js"></script>
+</html>

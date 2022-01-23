@@ -349,6 +349,7 @@ footer {
     padding: 10px;
     width: 30%;
     text-align: center;
+    font-size: 18px;
 }
 
 .info-text a {
@@ -655,6 +656,7 @@ th {
 .cart-product {
     display: flex;
     flex-wrap: wrap;
+    align-items: center;
 }
 
 .cart-product img {
@@ -753,6 +755,16 @@ td:last-child {
     width: 80%;
 }
 
+.order-info{
+    display: flex; 
+    justify-content: space-between; 
+    margin-top: 30px;
+}
+
+.order-info p{
+    padding: 5px;
+}
+
 @media screen and (max-width:1400px) {
 
     .home .row {
@@ -849,8 +861,8 @@ td:last-child {
     }
 
     .cart-product {
-        display: flex;
         flex-direction: column;
+        align-items: flex-start;
     }
 
     .cart-product p {
