@@ -777,6 +777,7 @@ td:last-child {
 */
 
 .orders-container{
+    padding: 10px;
     box-shadow: 0 0px 10px 10px rgba(0, 0, 0, .05);
     border-radius: 25px;
     width: 400px;
@@ -834,6 +835,10 @@ td:last-child {
     
     .small-container {
         width: 65%;
+    }
+
+    .orders-container{
+        width: 100%;
     }
 }
 

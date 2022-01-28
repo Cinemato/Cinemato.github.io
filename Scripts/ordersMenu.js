@@ -5,9 +5,6 @@ var container = document.getElementsByClassName("orders-container")[0];
 var originalHeight = orders.clientHeight;
 orders.style.height = "0px";
 
-if(screen.width <= 1400){
-    container.style.width = "100%";
-}
 
 function ordersToggle(){
     
