@@ -780,7 +780,6 @@ td:last-child {
     padding: 10px;
     box-shadow: 0 0px 10px 10px rgba(0, 0, 0, .05);
     border-radius: 25px;
-    width: 400px;
     margin: auto;
     margin-top: 100px;
     transition: padding 1s ease, width 1s ease;
@@ -1021,11 +1020,6 @@ td:last-child {
 
     main {
         padding-bottom: 9rem;
-    }
-
-    .orders-container{
-        padding: 20px;
-        width: 100%;
     }
 
     .container{
