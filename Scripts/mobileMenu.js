@@ -1,3 +1,4 @@
+
 var menuItems = document.getElementsByClassName("mobile")[0];
 var burger = document.getElementById("burger");
 

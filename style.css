@@ -765,8 +765,34 @@ td:last-child {
     padding: 5px;
 }
 
-@media screen and (max-width:1400px) {
+/*
+.orders-container{
+    padding: 50px;
+    box-shadow: 0 0px 10px 10px rgba(0, 0, 0, .1);
+    border-radius: 25px;
+    width: 100%;
+    margin: auto;
+    margin-top: 100px;
+}
+*/
 
+.orders-container{
+    padding: 10px;
+    box-shadow: 0 0px 10px 10px rgba(0, 0, 0, .05);
+    border-radius: 25px;
+    width: 400px;
+    margin: auto;
+    margin-top: 100px;
+    transition: padding 1s ease, width 1s ease;
+}
+
+.orders{
+    overflow: hidden;
+    transition: height 1s ease;
+}
+
+
+@media screen and (max-width:1400px) {
     .home .row {
         flex-direction: column;
     }
@@ -996,6 +1022,15 @@ td:last-child {
     main {
         padding-bottom: 9rem;
     }
+
+    .orders-container{
+        padding: 20px;
+    }
+
+    .container{
+        width: 90%;
+    }
+    
 }
 
 @media screen and (max-width:600px) {
