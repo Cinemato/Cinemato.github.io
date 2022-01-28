@@ -5,13 +5,6 @@ var container = document.getElementsByClassName("orders-container")[0];
 var originalHeight = orders.clientHeight;
 orders.style.height = "0px";
 
-if(screen.width > 1400){
-    container.style.width = "400px";
-}
-else{
-    container.style.width = "100%";
-}
-
 function ordersToggle(){
     
     if(screen.width >= 1400){
@@ -37,7 +30,7 @@ function ordersToggle(){
         else{
             orders.style.height = "0px";
             container.style.width = "100%";
-            container.style.padding = "10px";
+            container.style.padding = "20px";
         }
     } 
 }
