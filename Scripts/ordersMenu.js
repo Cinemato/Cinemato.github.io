@@ -6,15 +6,31 @@ var originalHeight = orders.clientHeight;
 orders.style.height = "0px";
 
 function ordersToggle(){
-    if(orders.style.height == "0px"){
-        orders.style.height = originalHeight  + "px";
-        container.style.width = "100%";
-        container.style.padding = "50px";
-    }
     
-    else{
-        orders.style.height = "0px";
-        container.style.width = "400px";
-        container.style.padding = "10px";
+    if(screen.width >= 1400){
+        if(orders.style.height == "0px"){
+            orders.style.height = originalHeight  + "px";
+            container.style.width = "50%";
+            container.style.padding = "50px";
+        }
+        
+        else{
+            orders.style.height = "0px";
+            container.style.width = "400px";
+            container.style.padding = "10px";
+        }
     }
+    else{
+        if(orders.style.height == "0px"){
+            orders.style.height = originalHeight  + "px";
+            container.style.width = "100%";
+            container.style.padding = "20px";
+        }
+        
+        else{
+            orders.style.height = "0px";
+            container.style.width = "100%";
+            container.style.padding = "10px";
+        }
+    } 
 }

@@ -1025,6 +1025,7 @@ td:last-child {
 
     .orders-container{
         padding: 20px;
+        width: 100%;
     }
 
     .container{
