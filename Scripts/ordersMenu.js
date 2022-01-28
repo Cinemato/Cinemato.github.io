@@ -34,7 +34,7 @@ function ordersToggle(){
         else{
             orders.style.height = "0px";
             container.style.width = "100%";
-            container.style.padding = "10px";
+            container.style.padding = "20px";
         }
     } 
 }
