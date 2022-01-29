@@ -1,13 +1,13 @@
 
 var orders = document.getElementsByClassName("orders")[0];
 var container = document.getElementsByClassName("orders-container")[0];
+var arrow = document.getElementById("down-arrow");
 
 var originalHeight = orders.clientHeight;
+
 orders.style.height = "0px";
 
-
 function ordersToggle(){
-    
     if(screen.width > 1400){
         if(orders.style.height == "0px"){
             orders.style.height = originalHeight  + "px";
@@ -33,5 +33,7 @@ function ordersToggle(){
             container.style.width = "100%";
             container.style.padding = "10px";
         }
-    } 
+    }
+    
+    arrow.classList.toggle("rotated-arrow");
 }

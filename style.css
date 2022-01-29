@@ -778,7 +778,7 @@ td:last-child {
 
 .orders-container{
     padding: 10px;
-    box-shadow: 0 0px 10px 10px rgba(0, 0, 0, .05);
+    box-shadow: 0 0px 10px 10px rgba(0, 0, 0, .1);
     border-radius: 25px;
     width: 400px;
     margin: auto;
@@ -789,6 +789,39 @@ td:last-child {
 .orders{
     overflow: hidden;
     transition: height 1s ease;
+}
+
+.expand-orders-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.expand-orders-button h2{
+    text-align: center; 
+    font-size: 22px;
+    font-weight: normal;
+    margin-right: 15px;
+    color: #555;
+}
+
+.rotated-arrow{
+    transform: rotate(180deg);
+}
+
+.expand-orders-button img{
+   transition: transform 1s ease;
+}
+
+.orders .cart-page{
+    margin: 0;
+    border-bottom: 3px solid #FFA20C;
+    padding-bottom: 0;
+}
+
+.orders .cart-page:last-child{
+    border-bottom: none;
 }
 
 
