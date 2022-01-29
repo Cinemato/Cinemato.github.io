@@ -824,6 +824,15 @@ td:last-child {
     border-bottom: none;
 }
 
+.account-form{
+    display: flex;
+    align-items: center;
+}
+
+.account-form img{
+    margin-right: 15px;
+}
+
 
 @media screen and (max-width:1400px) {
     .home .row {
