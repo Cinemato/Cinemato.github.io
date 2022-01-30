@@ -1099,10 +1099,6 @@ td:last-child {
         font-size: 15px;
     }
 
-    .cart-page table{
-        margin: 30px auto;
-    }
-
     main {
         padding-bottom: 9rem;
     }
@@ -1113,6 +1109,16 @@ td:last-child {
 
     .cart-container .checkout-page{
         width: 100%;
+    }
+
+    .cart-container{
+        width: 100%;
+        padding: 0;
+        margin-top: 0px;
+    }
+
+    .cart-container .cart-page table{
+        margin-top: 0px;
     }
 }
 
