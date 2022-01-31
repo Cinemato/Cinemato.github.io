@@ -942,7 +942,14 @@ td:last-child {
     }
 }
 
-@media screen and (max-width:860px) {
+@media screen and (max-width:950px){
+    .product{
+        margin-right: 40px;
+        margin-left: 40px;
+    }
+}
+
+@media screen and (max-width:800px) {
 
     .home-image {
         width: 400px;
@@ -1128,7 +1135,9 @@ td:last-child {
     }
 
     .product{
-        width: 100%;
+        width: 40%;
+        margin-right: 20px;
+        margin-left: 20px;
     }
 }
 
@@ -1140,5 +1149,11 @@ td:last-child {
 
     .title h2:before{
         width: 75px;
+    }
+
+    .product{
+        width: 100%;
+        margin-right: 0px;
+        margin-left: 0px;
     }
 }
