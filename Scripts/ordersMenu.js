@@ -8,7 +8,7 @@ var originalHeight = orders.clientHeight;
 orders.style.height = "0px";
 
 function ordersToggle(){
-    if(screen.width > 1400){
+    if(screen.width > 800){
         if(orders.style.height == "0px"){
             orders.style.height = originalHeight  + "px";
             container.style.width = "50%";
