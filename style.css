@@ -87,6 +87,10 @@ a {
     text-align: center;
 }
 
+.text-box-wide {
+    width: 80%;
+}
+
 footer {
     margin-top: 70px;
     margin-bottom: 20px;
